@@ -11,8 +11,6 @@ console.log(isanAdult)
 console.log(ageCheck , "ageCheck")
 
 
-
-
 // // 2. Template Literals
 
 var userName = "Tejas"
@@ -21,9 +19,6 @@ var userAge = 22
 
 let userinfo = `Hi I am ${userName} ${userSurname}. I am ${userAge} year old.`
 console.log(userinfo , "is userinfo")
-
-
-
 
 
 
@@ -44,10 +39,7 @@ console.log(name, surname, age, "name, surname, age")
 
 
 
-
-
 // 4. Callback Function
-
 
 function greet(name, callback){
 console.log("welcome", name)
@@ -59,8 +51,6 @@ function afterGreetingUserAskPermission(){
 }
 
 greet("Tejas", afterGreetingUserAskPermission)
-
-
 
 
 let userAge = 15
